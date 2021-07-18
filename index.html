@@ -9,36 +9,37 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header id="header" class="header">
         <div class="container">
-            <img src="img/logo.png" alt="logo">
+            <img src="img/logo.png" alt="logo" class="animate__animated animate__flipInX">
             <div class="wrapper">
-                <div class="offer">
+                <div class="offer animate__animated animate__backInLeft">
                     <h1 class="title">С помощью верстки я создам ту жизнь, о которой <span>мечтаю!</span></h1>
                     <p class="intro">Мои стремления + настойчивость позволят мне достичь чего угодно. Я верю в это и знаю это на 100%. Меня не остановить!</p>
                     <a href="#" class="btn">Двигаться к мечте!</a>
                 </div>
-                <img src="img/main.png" alt="main" class="main">
+                <img src="img/main.png" alt="main" class="main animate__animated animate__backInRight">
             </div>
         </div>
     </header>
     <section id="lifestyle" class="lifestyle">
         <div class="container">
-            <h2 class="section-title">Что меня ждет впереди</h2>
+            <h2 class="section-title animate__animated animate__fadeInDown">Что меня ждет впереди</h2>
             <div class="wrapper">
-                <div class="card">
+                <div class="card animate__animated animate__backInUp">
                     <img src="img/icon.jpeg" alt="time">
                     <h3 class="time">Свободное время</h3>
                     <p>Мне нужно свободное время на семью и самое настоящее</p>
                 </div>
-                <div class="card">
+                <div class="card animate__animated animate__fadeInDown">
                     <img src="img/icon2.jpeg" alt="island">
                     <h3 class="trip">Яркие путешествия</h3>
                     <p>Работать откуда угодно - что может быть лучше?</p>
                 </div>
-                <div class="card">
+                <div class="card animate__animated animate__backInUp">
                     <img src="img/icon3.jpeg" alt="rocket">
                     <h3 class="wealth">Создание ценности</h3>
                     <p>Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
@@ -63,5 +64,8 @@
             <p>&#169 Все мои мечты защищены</p>
         </div>
     </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
